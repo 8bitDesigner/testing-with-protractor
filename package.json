@@ -1,0 +1,22 @@
+{
+  "name": "jasmine-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node index.js",
+    "jasmine": "bin/test-jasmine.js",
+    "protractor": "protractor spec/support/protractor.conf.js",
+    "test": "npm run jasmine && npm run protractor",
+    "postinstall": "webdriver-manager update"
+  },
+  "author": "Paul Sweeney <paul@8-bitdesign.com>",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.4",
+    "bootstrap": "^3.3.5",
+    "express": "^4.13.3",
+    "jasmine": "^2.3.2",
+    "jasmine-spec-reporter": "^2.4.0",
+    "protractor": "^2.1.0"
+  }
+}
