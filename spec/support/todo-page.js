@@ -1,5 +1,5 @@
 module.exports = {
-  load() {
+  load: function load() {
     browser.get('http://localhost:3001')
   },
 
